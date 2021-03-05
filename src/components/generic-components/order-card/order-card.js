@@ -37,7 +37,7 @@ export default function OrderCard({
             return (
               <ListOrderItems
                 key={`order-item-${index}`}
-                itemName={item.name}
+                itemName={item.name.replace('mL', 'ml')}
                 itemQuantity={item.qtd}
                 itemFlavor={item.flavor}
                 itemComplement={item.complement}

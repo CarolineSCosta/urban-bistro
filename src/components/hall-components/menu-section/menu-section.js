@@ -20,7 +20,7 @@ export default function MenuSection({
                   productId={product.id}
                   srcImg={product.image}
                   altImg={product.name}
-                  productName={product.name}
+                  productName={product.name.replace('mL', 'ml')}
                   productPrice={product.price}
                   onClick={onClick}
                 />
