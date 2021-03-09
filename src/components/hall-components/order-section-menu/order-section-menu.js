@@ -17,6 +17,9 @@ export default function OrderSection({
       <section className='section-container-menu-order'>
         <h1 className='menu-order-section-title'>Pedidos</h1>
         <div className='menu-order-section-container'>
+          {items.length === 0 &&
+            <p className='empty-order-hall'>Os itens lançados irão aparecer aqui!</p>
+          }
           {
             items.length > 0 && items.map((item, index) => {
               return (

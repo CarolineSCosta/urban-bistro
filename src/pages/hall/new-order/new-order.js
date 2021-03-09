@@ -240,6 +240,7 @@ export const NewOrder = () => {
             }
           />
         </div>
+
         <ReactModal
           className='modal'
           isOpen={showModal}

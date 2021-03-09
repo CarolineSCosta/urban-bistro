@@ -8,7 +8,7 @@
 .status-kitchen,
 .status-hall {
 	width: 22rem;
-	height: 32rem;
+	height: 78vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -35,4 +35,11 @@
 .status-delivery {
 	background-color: #056137;
 	border: solid 2px #056137;
+}
+
+@media (min-height: 768px) {
+	.status-kitchen,
+	.status-hall {
+		height: 38rem;
+	}
 }
