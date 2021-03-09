@@ -17,8 +17,6 @@ const API_AUTH = `${API_URL}/auth`
 const API_PRODUCTS = `${API_URL}/products`
 const API_ORDERS = `${API_URL}/orders`
 
-
-
 export const createUser = async (
   userName,
   userEmail,
