@@ -55,6 +55,10 @@ export const authUser = async (
   return await response.json()
 }
 
+export const logout = () => {
+  localStorage.clear()
+}
+
 export const getProducts = async (
 
 ) => {

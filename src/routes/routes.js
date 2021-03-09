@@ -3,8 +3,8 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 import { Login } from '../pages/login/login'
 import { SignUp } from '../pages/signup/signup'
 import { NewOrder } from '../pages/hall/new-order/new-order'
-import ClientInfo from '../components/hall-components/client-info/client-info'
 import { StatusOrder } from '../pages/status-order/status-order'
+import ClientInfo from '../components/hall-components/client-info/client-info'
 
 const PrivateRoute = props => {
   const userToken = localStorage.getItem('userToken')
