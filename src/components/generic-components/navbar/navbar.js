@@ -5,8 +5,13 @@ import { GiKnifeFork } from 'react-icons/gi'
 import { FaDoorOpen } from 'react-icons/fa'
 import './navbar.css'
 import { logout } from '../../../services/services'
+import { useHistory } from 'react-router-dom'
+
 
 export default function Navbar() {
+
+  const history = useHistory()
+
   return (
     <header className='responsive-wrap-navbar'>
       <p className='label-nav'><FaUserCircle className='icon-nav' /><br />{localStorage.getItem('userName')}</p>
@@ -21,6 +26,7 @@ export default function Navbar() {
           (event) => {
             event.preventDefault()
             logout()
+            history.push('/')
           }
         }
       >
