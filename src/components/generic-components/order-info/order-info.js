@@ -19,31 +19,36 @@ export default function OrderInfo({
         <h1 className='title-add-status'>{statusTitle}</h1>
       </div>
       <section className='container-order-status'>
-        {orders.map((order, index) => {
-          return (
-            <OrderCard
-              tableNumber={order.table}
-              clientName={order.client_name}
-              status={order.status}
-              statusColor={statusColor}
-              buttonNameAddStatus={nextStatus}
-              showButton={showButton}
-              created={order.createdAt}
-              processed={order.processedAt}
-              showTime={showTime}
-              onClickAddStatus={
-                async (event) => {
-                  event.preventDefault()
-                  await updateOrder(order.id, nextStatusApi)
-                  callback()
-                }
-              }
-              orderItems={order.Products}
-              key={`order-${index}`}
-            />
-          )
+        {
+          orders.length === 0 &&
+          <p className='empty-order'>As comandas irão aparecer aqui!</p>
         }
-        )}
+        {
+          orders.map((order, index) => {
+            return (
+              <OrderCard
+                tableNumber={order.table}
+                clientName={order.client_name}
+                status={order.status}
+                statusColor={statusColor}
+                buttonNameAddStatus={nextStatus}
+                showButton={showButton}
+                created={order.createdAt}
+                processed={order.processedAt}
+                showTime={showTime}
+                onClickAddStatus={
+                  async (event) => {
+                    event.preventDefault()
+                    await updateOrder(order.id, nextStatusApi)
+                    callback()
+                  }
+                }
+                orderItems={order.Products}
+                key={`order-${index}`}
+              />
+            )
+          }
+          )}
       </section>
     </Fragment>
   )

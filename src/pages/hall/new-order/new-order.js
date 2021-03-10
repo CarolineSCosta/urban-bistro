@@ -8,6 +8,7 @@ import MenuSection from '../../../components/hall-components/menu-section/menu-s
 import Navbar from '../../../components/generic-components/navbar/navbar'
 import OrderSection from '../../../components/hall-components/order-section-menu/order-section-menu'
 import './new-order.css'
+import { GiConsoleController } from 'react-icons/gi'
 
 export const NewOrder = () => {
   const history = useHistory()
@@ -240,6 +241,7 @@ export const NewOrder = () => {
             }
           />
         </div>
+
         <ReactModal
           className='modal'
           isOpen={showModal}
@@ -401,8 +403,7 @@ export const NewOrder = () => {
                           .filter(product => product.flavor === burgerFlavor)
                           .filter(product => product.complement === burgerExtra)[0]
                         const newOrderItens = [...orderItems]
-                        const orderItem = newOrderItens.filter((orderItem) => orderItem.product_id === selected.id)[0]
-
+                        const orderItem = newOrderItens.filter((orderItem) => orderItem.product_id === String(selected.id))[0]
                         if (orderItem !== null && orderItem !== undefined) {
                           orderItem.product_quantity = Number(orderItem.product_quantity) + 1
                           newOrderItens.splice(newOrderItens.findIndex(orderItem => orderItem.product_id === selected.id), 1)

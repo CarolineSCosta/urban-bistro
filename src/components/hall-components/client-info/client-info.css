@@ -44,12 +44,19 @@
 	border: solid 2px #ffd34d;
 	border-radius: 0.5rem;
 	background-color: #ffd34d;
-	color: #ffffe0;
+	color: #fffff0;
 	transition: 0.3s ease-in-out;
 	box-shadow: 0 4px 7px 0 #c2c2c0;
 }
 
 .btn-order:hover {
-	background-color: #ffffe0;
+	background-color: #fffff0;
 	color: #ffd34d;
+}
+
+@media (min-width: 1020px) {
+	.form-client-info {
+		margin-top: 10rem;
+		width: 30rem;
+	}
 }

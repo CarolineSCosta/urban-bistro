@@ -106,7 +106,9 @@ export const StatusOrder = () => {
               statusTitle='Entregue'
               statusColor='status-delivery'
               orders={
-                orders.filter((order) => order.status === 'delivery')
+                orders
+                  .filter((order) => order.status === 'delivery')
+                  .filter((order) => new Date(order.createdAt).setHours(0, 0, 0, 0) === new Date().setHours(0, 0, 0, 0))
               }
               callback={
                 () => {

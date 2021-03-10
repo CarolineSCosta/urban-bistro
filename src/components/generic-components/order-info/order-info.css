@@ -9,3 +9,10 @@
 .container-order-status {
 	overflow-y: scroll;
 }
+
+.empty-order {
+	text-align: center;
+	color: #db9e36;
+	font-size: 0.9rem;
+	font-weight: 600;
+}

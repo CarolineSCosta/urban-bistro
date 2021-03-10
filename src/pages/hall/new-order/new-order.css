@@ -22,8 +22,8 @@ body {
 .div-container-menu-section {
 	display: flex;
 	flex-direction: column;
-	width: 55vw;
-	height: 75vh;
+	width: 45rem;
+	height: 31rem;
 	background-color: #fff9d4;
 	border-radius: 0.5rem;
 	padding: 0.5rem;
@@ -235,4 +235,16 @@ body {
 }
 .radio-tile-label-modal-option {
 	color: #db9e36;
+}
+
+@media (min-height: 768px) {
+	.div-container-menu-section {
+		height: 37rem;
+	}
+}
+
+@media (min-width: 1020px) {
+	.div-container-menu-section {
+		width: 34rem;
+	}
 }

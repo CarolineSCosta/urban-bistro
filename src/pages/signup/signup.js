@@ -127,7 +127,7 @@ export const SignUp = () => {
                   userPassword,
                   jobPosition
                 )
-                history.push('/')
+
               }
             }
           />

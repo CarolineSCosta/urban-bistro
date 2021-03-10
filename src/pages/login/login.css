@@ -16,7 +16,7 @@ html {
 }
 
 .logo {
-	max-width: 15vw;
+	width: 12vw;
 	height: auto;
 	margin: 0 auto;
 	display: flex;
@@ -33,7 +33,7 @@ html {
 }
 
 .form-login {
-	max-width: 30rem;
+	width: 30rem;
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
@@ -88,4 +88,15 @@ html {
 	font-weight: 700;
 	text-align: center;
 	color: #ffd34d;
+}
+
+@media (max-width: 1020px) {
+	.logo {
+		width: 15rem;
+	}
+
+	.form-login {
+		width: 35rem;
+		padding: 3rem 2rem;
+	}
 }

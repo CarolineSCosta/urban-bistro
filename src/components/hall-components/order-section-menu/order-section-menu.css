@@ -1,8 +1,8 @@
 .section-container-menu-order {
 	display: flex;
 	flex-direction: column;
-	width: 40vw;
-	height: 75vh;
+	width: 37rem;
+	height: 31rem;
 	border-radius: 0.5rem;
 	background-color: #fff9d4;
 }
@@ -113,4 +113,30 @@
 .btn-order-confirm:hover {
 	background-color: #fff9d4;
 	color: #056b59;
+}
+
+.empty-order-hall {
+	padding-top: 8rem;
+	text-align: center;
+	color: #db9e36;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+@media (min-height: 768px) {
+	.section-container-menu-order {
+		height: 37rem;
+	}
+	.btn-order-confirm,
+	.btn-order-cancel {
+		margin-top: 3rem;
+		width: 10rem;
+		padding: 0.5rem 1rem;
+	}
+}
+
+@media (min-width: 1020px) {
+	.section-container-menu-order {
+		width: 25rem;
+	}
 }
