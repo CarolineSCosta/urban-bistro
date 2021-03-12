@@ -121,7 +121,7 @@ De acordo com as necessidades dos usuários, foram definidas quais funcionalidad
 #### :date: Organização
 
 <p align="justify">
-Ao receber o projeto toda a organização de tarefas e processos foram realizadas no <a href="https://trello.com/pt-BR">Trello </a>utilizando o sistema <b>kanban</b> e <b>metodologia ágil</b>. Depois de toda a organização feita, foram definidos os <b>critérios de aceitação e definição de pronto</b>, tempo de realização de cada tarefa e o que seria entregue em cada sprint. <b>Trabalhar integralmente uma história de usuário</b> antes de passar para a próxima, dessa forma ao final de cada sprint o cliente tem acesso ao que está sendo desenvolvido.
+Ao receber o projeto toda a organização de tarefas e processos foram realizadas no <a href="https://trello.com/pt-BR" target="_blank">Trello </a>utilizando o sistema <b>kanban</b> e <b>metodologia ágil</b>. Depois de toda a organização feita, foram definidos os <b>critérios de aceitação e definição de pronto</b>, tempo de realização de cada tarefa e o que seria entregue em cada sprint. Trabalhar integralmente uma história de usuário antes de passar para a próxima, dessa forma ao final de cada sprint o cliente tem acesso ao que está sendo desenvolvido.
 </p>
 
 ![print do trello](src/assets/assets-readme/trello.png)
@@ -144,7 +144,7 @@ Abaixo o fluxograma da tela de cadastro e acesso:
 Com base nesses dados levantados foi possível desenvolver wireframe de média fidelidade de todas as telas da aplicação tomando cuidado para que fosse uma plataforma tivesse uma experiência de usuário clara e objetiva.
 
 Para desenvolver o wireframe de média fidelidade foi utilizada a ferramenta
-<a href="https://mockflow.com/">mockflow</a>.
+<a href="https://mockflow.com/" target="_blank">Mockflow</a>.
 
 </p>
 
@@ -164,7 +164,7 @@ Para desenvolver o wireframe de média fidelidade foi utilizada a ferramenta
  Vários detalhes foram pensados para entregar uma aplicação que fosse intuitiva e para melhorar ainda mais a experiência na utilização, nas comandas estão etiquetas sinalizando o status dos pedidos e utilizando o farol como referência foram escolhidas as cores vermelha, laranja e verde.
 
 Para desenvolver o wireframe de alta fidelidade foi utilizada a ferramenta
-<a href="https://www.figma.com/">figma</a>.
+<a href="https://www.figma.com/" target="_blank">Figma</a>.
 
 </p></br>
 
@@ -173,17 +173,17 @@ Para desenvolver o wireframe de alta fidelidade foi utilizada a ferramenta
 #### :art: Identidade visual
 
 <p align="justify">
-Depois de definir o nome do restaurante que seria o cliente no qual a aplicação seria desenvolvida e algumas pesquisas no google, encontrei um restaurante com o mesmo nome que está localizado na Europa. O perfil era parecido com o que tinha em mente, e o mesmo serviu de inspiração para a paleta de cores e fonte da logo. Se tiver interesse, você pode acessar o site deles <a href="http://urbanbistro.sk/">clicando aqui!</a>
+Depois de definir o nome do restaurante que seria o cliente no qual a aplicação seria desenvolvida e algumas pesquisas no google, encontrei um restaurante com o mesmo nome que está localizado na Europa. O perfil era parecido com o que tinha em mente, e o mesmo serviu de inspiração para a paleta de cores e fonte da logo. Se tiver interesse, você pode acessar o site deles <a href="http://urbanbistro.sk/" target="_blank">clicando aqui!</a>
 </p>
 
 <div align="center">
-  <img alt='Fachada urban bistro'src="src/assets/assets-readme/real-urban-bistro.png" width=300>
+  <img alt="Fachada urban bistro" src="src/assets/assets-readme/real-urban-bistro.png" width=300>
 </div>
 
 #### :art: Paleta de cores
 
 <p align="justify">
-A paleta de cores foi desenvolvida utilizando o <a href="https://color.adobe.com/">Adobe Color</a>, pensando em tons mais quentes e sofisticados, que estivessem de acordo com o tema, proporcionasse harmonia visual e fosse confortável aos olhos dos usuários.
+A paleta de cores foi desenvolvida utilizando o <a href="https://color.adobe.com/" target="_blank" >Adobe Color</a>, pensando em tons mais quentes e sofisticados, que estivessem de acordo com o tema, proporcionasse harmonia visual e fosse confortável aos olhos dos usuários.
 </p>
 
 ![paleta de cores](src/assets/assets-readme/paleta-de-cores.png)
@@ -242,5 +242,5 @@ Foram realizados testes com algumas das pessoas que se dispuseram testar a usabi
 </p>
 
 <p align="center">
-Esse projeto foi desenvolvido no <a href="https://www.laboratoria.la/br">Bootcamp da Laboratória Brasil</a>
+Esse projeto foi desenvolvido no <a href="https://www.laboratoria.la/br" target="_blank">Bootcamp da Laboratória Brasil</a>
 </p>
