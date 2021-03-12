@@ -25,7 +25,11 @@
 ## 1. Introdução
 
 <p align="justify">
-O objetivo do projeto era desenvolver uma aplicação para gerenciamento de pedidos, e sincronizar as informações de comandas entre cozinha e salão.
+O objetivo do projeto era desenvolver uma aplicação <i>SPA</i>(Single-Page Application) para gerenciamento de pedidos, e sincronizar as informações de comandas entre cozinha e salão. Foi desenhada e desenvolvida pensando na usabilidade em tablet.
+</p>
+
+<p align="center">
+ <img src="https://media.tenor.com/images/0c9e10f9c9a80515b78023e5719415a5/tenor.gif" width=300 frameBorder="0"></img>
 </p>
 
 ## 2. Como utilizar
@@ -131,7 +135,7 @@ Ao entender bem a necessidade do cliente, desenvolvi também fluxogramas para en
 Abaixo o fluxograma da tela de cadastro e acesso:
 
 <div align="center">
-<img alt= "fluxograma cadastro e acesso" src="src/assets/assets-readme/fluxograma-login-signup.png" width=400>
+  <img alt= "fluxograma cadastro e acesso" src="src/assets/assets-readme/fluxograma-login-signup.png" width=400>
 </div>
 
 #### :bulb: Wireframe de média fidelidade
@@ -144,13 +148,15 @@ Para desenvolver o wireframe de média fidelidade foi utilizada a ferramenta
 
 </p>
 
-<img src="" width=170>
-<img src="" width=170>
-<img src="" width=170>
-<img src="" width=170>
-<img src="" width=170>
-<img src="" width=170>
-<img src="" width=170>
+<div align="center">
+  <img alt="wireframe login" src="src/assets/assets-readme/login.png"   width=450></br>
+  <img alt="wireframe cadastro" src="src/assets/assets-readme/cadastro.png"   width=450></br>
+  <img alt="wireframe novo pedido" src="src/assets/assets-readme/novo-pedido.png" width=450></br>
+  <img alt="wireframe menu" src="src/assets/assets-readme/pedido-menu.png"  width=450></br>
+  <img alt="wireframe modal" src="src/assets/assets-readme/pedido-menu-modal.png" width=450></br>
+  <img alt="wireframe comanda salão" src="src/assets/assets-readme/pedido-status-salao.png" width=450></br>
+  <img alt="wireframe comanda cozinha" src="src/assets/assets-readme/pedido-status-cozinha.png" width=450></br>
+</div>
 
 #### :bulb: Wireframe de alta fidelidade
 
@@ -171,7 +177,7 @@ Depois de definir o nome do restaurante que seria o cliente no qual a aplicaçã
 </p>
 
 <div align="center">
-<img alt='Fachada urban bistro'src="src/assets/assets-readme/real-urban-bistro.png" width=300>
+  <img alt='Fachada urban bistro'src="src/assets/assets-readme/real-urban-bistro.png" width=300>
 </div>
 
 #### :art: Paleta de cores
@@ -190,15 +196,27 @@ Para a logo foi pensada para que estivesse de acordo com o tema e que fosse capa
 
 <div align="center">
  <img  alt="Logo urban bistro" src="src/assets/logo.png" width=170 />
- </div></br>
+</div></br>
 
 <p align="justify">
-<i>
-"Não é o ângulo reto que me atrai, nem a linha reta, dura, inflexível criada pelo homem. O que me atrai é a curva livre e sensual, a curva que encontro no curso sinuoso dos nossos rios, nas nuvens do céu, no corpo da mulher preferida. De curvas é feito todo o universo, o universo curvo de Einstein".
-</i> Assim já dizia o renomado arquiteto Oscar Niemeyer.
+  <i>
+  "Não é o ângulo reto que me atrai, nem a linha reta, dura, inflexível   criada pelo homem. O que me atrai é a curva livre e sensual, a curva que  encontro no curso sinuoso dos nossos rios, nas nuvens do céu, no corpo da  mulher preferida. De curvas é feito todo o universo, o universo curvo de   Einstein".
+  </i> Assim já dizia o renomado arquiteto Oscar Niemeyer.
 </p>
 
 #### :mag_right: Testes de usabilidade
+
+Foram realizados testes com algumas das pessoas que se dispuseram testar a usabilidade durante o processo de desenvolvimento. Com isso foi possível levantar dados que ajudaram a melhorar a aplicação:
+
+⚠️ Os usuários apontaram que não sentiam necessidade do ícone :heavy_plus_sign: no card dos produtos que fazem parte do menu pois já estava claro que ao clicar os itens seriam adicionados na comanda.
+
+✔️ Como solução o ícone foi removido e o card ficou melhor e mais agradável visualmente.
+
+⚠️ Os usuários não estavam satisfeitos com a paleta de cores que estava sendo utilizada inicialmente e apontaram que as cores escuras estavam afetando a utilização
+
+✔️ Foi desenvolvida uma nova paleta de cores tomando cuidado para que não fosse escura e não sobrecarregasse o olhar do usuário.
+
+![paleta de cores antiga](src/assets/assets-readme/paleta-antiga.png)
 
 ## 6. Desenvolvimento
 
@@ -206,13 +224,22 @@ Para a logo foi pensada para que estivesse de acordo com o tema e que fosse capa
 
 -   HTML5
 -   CSS3
+-   JavaScript(ES6+)
 -   JSX
 -   ReactJS
--   ESLint
+-   Vercel
 
 ## 7. Desenvolvedora
 
-:woman_technologist: [Caroline Costa](https://github.com/CarolineSCosta)
+:mailbox: Entre em contado com a desenvolvedora **Caroline Costa**:
+
+:pushpin: [GitHub](https://github.com/CarolineSCosta)
+
+:pushpin: [LinkedIn](https://www.linkedin.com/in/carolinescosta/)
+
+<p align="center">
+ <img src="https://camo.githubusercontent.com/6f5e3ead776bc722fbfc3da2c8b1454a7a5f27a07b34c0ced075f90a6c25a3be/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313630302f302a4b32574c4d5445784c79696461374f522e676966" width=350 frameBorder="0"></img>
+</p>
 
 <p align="center">
 Esse projeto foi desenvolvido no <a href="https://www.laboratoria.la/br">Bootcamp da Laboratória Brasil</a>
