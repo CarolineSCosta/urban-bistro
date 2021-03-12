@@ -1,181 +1,246 @@
- <h1 align='center'>
- <img  alt='Logo Urban Bistro'  src='src\assets\logo.png' />
- </h1>
+ <div align="center">
+ <img  alt="Logo urban bistro" src="src/assets/logo.png" width=170 />
+ </div>
 
-# <h1 align="center">Urban Bistro</h1>
->:sparkles:Para acessar nossa aplicação [Clique aqui](urban-bistro.vercel.app/):sparkles:
-___
 ## Índice
 
-- [Introdução](#introdução)
-- [Histórias de Usuario](#histórias-de-usuários)
-- [Funcionalidades](#funcionalidades)
-- [Planejamento e Organização](#planejamento-e-organização)
-- [Testes](#testes)
-- [Instalação](#instalação)
-- [Dependências](#dependências)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Desenvolvedoras](#desenvolvedoras)
+-   [1. Introdução](#1-introdução)
+-   [2. Como utilizar](#2-como-utilizar)
+-   [3. Sobre a aplicação](#3-sobre-a-aplicação)
+-   [4. Histórias de usuários](#4-histórias-de-usuários)
+    -   [Funcionalidades](#funcionalidades)
+-   [5. Processo de criação](#5-processo-de-criação)
+    -   [Organização](#organização)
+    -   [Identidade visual ](#identidade-visual)
+    -   [Paleta de cores](#paleta-de-cores)
+    -   [Logo](#logo)
+    -   [Wireframe de média fidelidade](#wireframe-de-média-fidelidade)
+    -   [Wireframe de alta fidelidade](#wireframe-de-alta-fidelidade)
+    -   [Testes de usabilidade](#testes-de-usabilidade)
+-   [6. Desenvolvimento](#6-desenvolvimento)
+-   [7. Desenvolvedora](#7-desenvolvedora)
 
 ---
 
-### Introdução
+## 1. Introdução
 
-A partir do projeto proposto pela [Laboratória](https://github.com/Laboratoria/SAP005-burger-queen), desenvolvemos em dupla uma aplicação 100% por demanda, suprindo de forma ordenada e eficiente as histórias de usuário. Implementamos uma aplicação de gestão de um restaurante, onde a interface é sincronizada entre os pedidos do salão(realizados através de um Tablet) e a cozinha.
+<p align="justify">
+O objetivo do projeto era desenvolver uma aplicação <i>SPA</i>(Single-Page Application) para gerenciamento de pedidos, e sincronizar as informações de comandas entre cozinha e salão. Foi desenhada e desenvolvida pensando na usabilidade em tablet.
+</p>
 
-<h4 align="center">
-<img src='https://www.hypeness.com.br/1/2021/02/7d47e737-bela-e-a-fera-comidas.gif' >
-</h4>
+<p align="center">
+ <img src="https://media.tenor.com/images/0c9e10f9c9a80515b78023e5719415a5/tenor.gif" width=300 frameBorder="0"></img>
+</p>
 
+## 2. Como utilizar
 
-### Histórias de Usuários
+✨ Acessar a aplicação [urban bistro](https://urban-bistro.vercel.app/) ✨
 
-As Histórias de usuário foram fornecidas por um restaurante em expansão, e seguem abaixo:
+É possível acessar a aplicação com **usuário de teste**:
 
-- Eu, como funcionário do restaurante, quero entrar na plataforma e ver apenas a tela que for importante para o meu trabalho.
+-   Acesso **salão**:
 
-- Eu, como garçom/garçonete, quero poder anotar o meu pedido, saber o valor de cada
-produto e poder enviar o pedido para a cozinha para ser preparado.
+    -   **Email**: salao@urbanbistro.com
+    -   **Senha**: teste12345
 
-- Eu, como chefe de cozinha, quero ver os pedidos dos clientes em ordem, poder marcar quando estão prontos e poder notificar os garçons/garçonetes que o pedido está pronto para ser entregue ao cliente.
+-   Acesso **cozinha**:
 
-- Eu, como garçom/garçonete, quero ver os pedidos que estão prontos para entregá-los rapidamente aos clientes.
+    -   **Email**: cozinha@urbanbistro.com
+    -   **Senha**: teste12345
 
-### Funcionalidades
+    ![Gif da aplicação urban bistro](src/assets/assets-readme/urban-bistro.gif)
 
-##### 1: Criar perfil
+## 3. Sobre a aplicação
 
-- [x] Poder realizar cadastro com e-mail, senha e função.
-- [x] Poder realizar login com e-mail e senha.
-- [x] Redirecionar para a tela correta.
+<p align="justify">
+O restaurante 24 horas <b>urban bistro</b> está crescendo e precisa de uma aplicação que a interface permita os atendentes realizar pedidos utilizando um tablet e enviá-los para a cozinha para que sejam preparados de forma ordenada e eficiente. E que permita que os cozinheiros vejam os pedidos dos clientes, marcar e notificar os atendentes que o pedido está pronto para ser entregue.
+</p>
 
-##### 2: Anotar pedidos
+## 4. Histórias de usuários
 
-- [x] Digitar o nome do cliente e mesa.
-- [x] Filtrar _menu_ para _café da manhã_ e _almoço/jantar_.
-- [x] Adicionar item ao pedido.
-- [x] Excluir item do pedido.
-- [x] Mostrar _resumo_ do pedido com todos os itens e o total.
-- [x] Enviar para a cozinha (isso deve salvar o pedido).
+O cliente informou quais eram as histórias de usuário:
 
-##### 3: Ver pedidos na cozinha
+-   **HU 01**
 
-- [x] Visualizar pedidos pendentes para produção.
-- [x] Marcar pedido como pronto para entrega.
-- [x] Ver histórico dos pedidos.
+    :writing_hand: "Eu como **funcionário** do restaurante quero entrar na plataforma e ver apenas a tela importante para o meu trabalho".
 
-##### 4: Entrega de pedidos
+-   **HU 02**
 
-- [x] Visualizar pedidos pendentes para entrega.
-- [x] Marcar pedido como entregue ao cliente.
+    :writing_hand: "Eu como **atendente** quero anotar pedidos, saber o valor de cada produto e enviar o pedido para a cozinha para ser preparado".
 
-##### 5: UX
+-   **HU 03**
 
-- [x] Funciona bem em tablets.
-- [x] Fácil utilização em telas sensíveis ao toque.
-- [x] Status atual do pedido sempre visível enquanto fazemos um pedido.
+    :writing_hand: "Eu como **chefe de cozinha** quero ver os pedidos dos clientes, marcar e notificar os atendentes que o pedido está pronto para ser entregue".
 
-### Planejamento e Organização
-📌Organização
+-   **HU 04**
 
-Ao recebermos esse projeto, definimos as sprints de acordo com cada história de usuário. Utilizando o método Kanban, organizado através do [Trello](https://trello.com/pt-BR)
+    :writing_hand: "Eu como **atendente** quero ver os pedidos que estão prontos para entregá-los rapidamente aos clientes".
 
-![imagen trello](src\assets\imgs\ubTrello.jpg)
+#### :gear: Funcionalidades
 
-📌Interface
-Desenvolvemos o wireframe para ser amigável ao usuário e de fácil compreensão.
+De acordo com as necessidades dos usuários, foram definidas quais funcionalidades deveriam ser implementadas:
 
-📄 WireFrame
+-   **HU 01**
 
-![img Login](https://trello-attachments.s3.amazonaws.com/601c549047c64b3dc376bd85/1010x1220/fd38ad852f11f0394bc6f0e897560bc2/login-portrait.png)
+    :white_check_mark: Criar login e senha.
 
-![img Cadastro](https://trello-attachments.s3.amazonaws.com/601c549047c64b3dc376bd85/1010x1220/057cc2ee716d360008cf1fae84264d5c/cadastro-portrait.png)
+    :white_check_mark: Registar tipo de usuário (cozinha / salão), login e senha.
 
-![img menu](https://trello-attachments.s3.amazonaws.com/601c423608a1107589520244/601c549047c64b3dc376bd85/d2bd51f0d76fe59bd49b1ace5e6cdfe9/pedido-menu-landscape.png)
+    :white_check_mark: Entrar na tela correta para cada usuário.
 
-![img menuitens](https://trello-attachments.s3.amazonaws.com/601c423608a1107589520244/601c549047c64b3dc376bd85/e130addd8d3da6627060d2a5a14bf493/pedido-menu-opcoes-landscape.png)
+-   **HU 02**
 
-![img pedidos](https://trello-attachments.s3.amazonaws.com/601c423608a1107589520244/601c549047c64b3dc376bd85/41c42ca1c9fb2696d9bcd838a485fcd2/pedido-status-landscape.png)
+    :white_check_mark: Anotar o nome e mesa.
 
-![img cozinha](https://trello-attachments.s3.amazonaws.com/601c423608a1107589520244/601c549047c64b3dc376bd85/29301c58aff7b5b983d62cf156adc6d1/pedido-status-cozinha-landscape.png)
+    :white_check_mark: Adicionar produtos aos pedidos.
 
-✔️ Interface Final Tablet
+    :white_check_mark: Excluir produtos.
 
-![img Tablet](src\assets\imgs\ubTabletLogin.jpg)
+    :white_check_mark: Ver resumo e o total da compra.
 
+    :white_check_mark: Enviar o pedido para a cozinha.
 
-📌Harmonização Visual
-Queríamos manter a estética minimalista e com cores agradáveis ao olhar. Mantemos o padrão entre o logo e a aplicação utilizando a paleta disposta abaixo.
+-   **HU 03**
 
-☑️ Paleta de Cores
+    :white_check_mark: Ver os pedidos à medida em que são feitos.
 
-![Paleta](https://trello-attachments.s3.amazonaws.com/601c423608a1107589520244/601c550785833f2f8c4e9800/cd001c684e990df6706e9906e4ca5a8b/AdobeColor-burguer-queen.jpeg)
+    :white_check_mark: Marcar os pedidos que foram preparados e estão prontos para serem servidos.
 
+    :white_check_mark: Ver o tempo que levou para preparar o pedido desde que chegou, até ser marcado como concluído.
 
-### Testes
+-   **HU 04**
 
-A partir do primeiro deploy da aplicação, conseguimos testar a usabilidade durante o processo de desenvolvimento. Com isso, identificamos que:
+    :white_check_mark: Ver a lista de pedidos prontos para servir.
 
-❌ Os usuários apontaram que a paleta de cores estava escura e dificultava a utilização da aplicação.
+    :white_check_mark: Marque os pedidos que foram entregues.
 
-✔️ Alteramos a paleta de cores e adotamos tons mais claros.
+:exclamation: Ao encerrar o dia as comandas que foram sinalizadas como "entregue" não são exibidas na tela do atendente, porém os dados ficam armazenados para que o restaurante possa levantar estatísticas no futuro.
 
+## 5. Processo de criação
 
-### Instalação
+#### :date: Organização
 
-Antes de começar, é preciso ter instalado em sua máquina as seguintes ferramentas:
+<p align="justify">
+Ao receber o projeto toda a organização de tarefas e processos foram realizadas no <a href="https://trello.com/pt-BR">Trello </a>utilizando o sistema <b>kanban</b> e <b>metodologia ágil</b>. Depois de toda a organização feita, foram definidos os <b>critérios de aceitação e definição de pronto</b>, tempo de realização de cada tarefa e o que seria entregue em cada sprint. <b>Trabalhar integralmente uma história de usuário</b> antes de passar para a próxima, dessa forma ao final de cada sprint o cliente tem acesso ao que está sendo desenvolvido.
+</p>
 
-[Git](https://git-scm.com);
-[Node.js](https://nodejs.org/en/).
+![print do trello](src/assets/assets-readme/trello.png)
 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+#### :bulb: Fluxograma
 
-Para iniciar este projeto, é necessário realizar um _fork_ e _clone_ deste repositório<https://github.com/CarolineSCosta/SAP005-burger-queen.git>.
+<p align="justify">
+Ao entender bem a necessidade do cliente, desenvolvi também fluxogramas para entender qual seria o fluxo do usuário dentro da plataforma.
+</p>
 
-### Dependências
+Abaixo o fluxograma da tela de cadastro e acesso:
 
-![REACT](https://img.shields.io/badge/REACT-17.0.1-brightgreen)
-![REACT-DOM](https://img.shields.io/badge/REACT--DOM-17.0.1-brightgreen)
-![REACT-ICONS](https://img.shields.io/badge/REACT--ICONS-4.2.0-brightgreen)
-![REACT-MODAL](https://img.shields.io/badge/REACT--MODAL-3.12.1-brightgreen)
-![REACT-ROUTER](https://img.shields.io/badge/REACT--ROUTER-5.2.0-brightgreen)
-![REACT-ROUTER-DOM](https://img.shields.io/badge/REACT--ROUTER--DOM-5.2.0-brightgreen)
-![REACT-SCRIPTS](https://img.shields.io/badge/REACT--SCRIPTS-4.0.2-brightgreen)
-![WEB-VITALS](https://img.shields.io/badge/WEB--VITALS-1.1.0-green)
+<div align="center">
+  <img alt= "fluxograma cadastro e acesso" src="src/assets/assets-readme/fluxograma-login-signup.png" width=400>
+</div>
 
+#### :bulb: Wireframe de média fidelidade
 
-### Tecnologias utilizadas
+<p align="justify">
+Com base nesses dados levantados foi possível desenvolver wireframe de média fidelidade de todas as telas da aplicação tomando cuidado para que fosse uma plataforma tivesse uma experiência de usuário clara e objetiva.
 
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
-- [React Routes](https://reactrouter.com/web/guides/quick-start)
-- [React + Fetch](https://jasonwatmore.com/post/2020/02/01/react-fetch-http-post-request-examples)
-- [React Modal](https://www.npmjs.com/package/react-modal)
-- [Deploy + Vercel](https://vercel.com/dashboard)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+Para desenvolver o wireframe de média fidelidade foi utilizada a ferramenta
+<a href="https://mockflow.com/">mockflow</a>.
 
----
+</p>
 
-### Desenvolvedoras
+<div align="center">
+  <img alt="wireframe login" src="src/assets/assets-readme/login.png"   width=450></br>
+  <img alt="wireframe cadastro" src="src/assets/assets-readme/cadastro.png"   width=450></br>
+  <img alt="wireframe novo pedido" src="src/assets/assets-readme/novo-pedido.png" width=450></br>
+  <img alt="wireframe menu" src="src/assets/assets-readme/pedido-menu.png"  width=450></br>
+  <img alt="wireframe modal" src="src/assets/assets-readme/pedido-menu-modal.png" width=450></br>
+  <img alt="wireframe comanda salão" src="src/assets/assets-readme/pedido-status-salao.png" width=450></br>
+  <img alt="wireframe comanda cozinha" src="src/assets/assets-readme/pedido-status-cozinha.png" width=450></br>
+</div>
 
+#### :bulb: Wireframe de alta fidelidade
 
- <img style="border-radius: 50%;" src="https://trello-members.s3.amazonaws.com/5761c7f01e4799bd615d27c4/77a78139f98bf137e41f9733b34227bb/original.png" width="100px;" alt="Foto Carol"/>
- <br />
- <sub><b>Caroline Costa</b></sub>
+<p align="justify">
+ Vários detalhes foram pensados para entregar uma aplicação que fosse intuitiva e para melhorar ainda mais a experiência na utilização, nas comandas estão etiquetas sinalizando o status dos pedidos e utilizando o farol como referência foram escolhidas as cores vermelha, laranja e verde.
 
- [![Linkedin Badge](https://img.shields.io/badge/-Carol-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/carolinescosta/)](https://www.linkedin.com/in/carolinescosta/) 
+Para desenvolver o wireframe de alta fidelidade foi utilizada a ferramenta
+<a href="https://www.figma.com/">figma</a>.
 
- [![GitHub Badge](https://img.shields.io/github/followers/CarolineSCosta?label=Carol&style=social)](https://github.com/CarolineSCosta)
+</p></br>
 
+![wireframe de alta fidelidade](src/assets/assets-readme/wireframe-alta-fidelidade.png)
 
- <img  style="border-radius: 50%;" src="https://trello-members.s3.amazonaws.com/5f2016fa61b72f2f43291e33/014299053b1f879e01fd511b01695e77/original.png" width="100px;" alt="Foto Elis"/>
- <br />
- <sub><b>Elis Brasil</b></sub> 
+#### :art: Identidade visual
 
- [![Linkedin Badge](https://img.shields.io/badge/-Elis-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/brasil-elis/)](https://www.linkedin.com/in/brasil-elis/) 
+<p align="justify">
+Depois de definir o nome do restaurante que seria o cliente no qual a aplicação seria desenvolvida e algumas pesquisas no google, encontrei um restaurante com o mesmo nome que está localizado na Europa. O perfil era parecido com o que tinha em mente, e o mesmo serviu de inspiração para a paleta de cores e fonte da logo. Se tiver interesse, você pode acessar o site deles <a href="http://urbanbistro.sk/">clicando aqui!</a>
+</p>
 
- [![GitHub Badge](https://img.shields.io/github/followers/Elis-ctrl?label=Elis&style=social)](https://github.com/Elis-ctrl)
+<div align="center">
+  <img alt='Fachada urban bistro'src="src/assets/assets-readme/real-urban-bistro.png" width=300>
+</div>
 
-👋🏽 Entre em contato!
+#### :art: Paleta de cores
+
+<p align="justify">
+A paleta de cores foi desenvolvida utilizando o <a href="https://color.adobe.com/">Adobe Color</a>, pensando em tons mais quentes e sofisticados, que estivessem de acordo com o tema, proporcionasse harmonia visual e fosse confortável aos olhos dos usuários.
+</p>
+
+![paleta de cores](src/assets/assets-readme/paleta-de-cores.png)
+
+#### :art: Logo
+
+<p align="justify">
+Para a logo foi pensada para que estivesse de acordo com o tema e que fosse capaz de representar a marca. As formas arredondadas acrescentam movimento ao design.
+</p>
+
+<div align="center">
+ <img  alt="Logo urban bistro" src="src/assets/logo.png" width=170 />
+</div></br>
+
+<p align="justify">
+  <i>
+  "Não é o ângulo reto que me atrai, nem a linha reta, dura, inflexível   criada pelo homem. O que me atrai é a curva livre e sensual, a curva que  encontro no curso sinuoso dos nossos rios, nas nuvens do céu, no corpo da  mulher preferida. De curvas é feito todo o universo, o universo curvo de   Einstein".
+  </i> Assim já dizia o renomado arquiteto Oscar Niemeyer.
+</p>
+
+#### :mag_right: Testes de usabilidade
+
+Foram realizados testes com algumas das pessoas que se dispuseram testar a usabilidade durante o processo de desenvolvimento. Com isso foi possível levantar dados que ajudaram a melhorar a aplicação:
+
+⚠️ Os usuários apontaram que não sentiam necessidade do ícone :heavy_plus_sign: no card dos produtos que fazem parte do menu pois já estava claro que ao clicar os itens seriam adicionados na comanda.
+
+✔️ Como solução o ícone foi removido e o card ficou melhor e mais agradável visualmente.
+
+⚠️ Os usuários não estavam satisfeitos com a paleta de cores que estava sendo utilizada inicialmente e apontaram que as cores escuras estavam afetando a utilização
+
+✔️ Foi desenvolvida uma nova paleta de cores tomando cuidado para que não fosse escura e não sobrecarregasse o olhar do usuário.
+
+![paleta de cores antiga](src/assets/assets-readme/paleta-antiga.png)
+
+## 6. Desenvolvimento
+
+:gear: Para esse projeto foram usados:
+
+-   HTML5
+-   CSS3
+-   JavaScript(ES6+)
+-   JSX
+-   ReactJS
+-   Vercel
+
+## 7. Desenvolvedora
+
+:mailbox: Entre em contado com a desenvolvedora **Caroline Costa**:
+
+:pushpin: [GitHub](https://github.com/CarolineSCosta)
+
+:pushpin: [LinkedIn](https://www.linkedin.com/in/carolinescosta/)
+
+<p align="center">
+ <img src="https://camo.githubusercontent.com/6f5e3ead776bc722fbfc3da2c8b1454a7a5f27a07b34c0ced075f90a6c25a3be/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313630302f302a4b32574c4d5445784c79696461374f522e676966" width=350 frameBorder="0"></img>
+</p>
+
+<p align="center">
+Esse projeto foi desenvolvido no <a href="https://www.laboratoria.la/br">Bootcamp da Laboratória Brasil</a>
+</p>
