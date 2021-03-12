@@ -1,5 +1,5 @@
- <div align='center'>
- <img  alt='Logo Urban Bistro' src='src\assets\logo.png' width=170 />
+ <div align="center">
+ <img  alt="Logo urban bistro" src="src/assets/logo.png" width=170 />
  </div>
 
 ## Índice
@@ -12,6 +12,7 @@
 -   [5. Processo de criação](#5-processo-de-criação)
     -   [Organização](#organização)
     -   [Identidade visual ](#identidade-visual)
+    -   [Paleta de cores](#paleta-de-cores)
     -   [Logo](#logo)
     -   [Wireframe de média fidelidade](#wireframe-de-média-fidelidade)
     -   [Wireframe de alta fidelidade](#wireframe-de-alta-fidelidade)
@@ -55,23 +56,23 @@ O restaurante 24 horas <b>urban bistro</b> está crescendo e precisa de uma apli
 
 O cliente informou quais eram as histórias de usuário:
 
-:writing_hand: **HU 01**
+-   **HU 01**
 
-"Eu como **funcionário** do restaurante quero entrar na plataforma e ver apenas a tela importante para o meu trabalho".
+    :writing_hand: "Eu como **funcionário** do restaurante quero entrar na plataforma e ver apenas a tela importante para o meu trabalho".
 
-:writing_hand: **HU 02**
+-   **HU 02**
 
-"Eu como **atendente** quero anotar pedidos, saber o valor de cada produto e enviar o pedido para a cozinha para ser preparado".
+    :writing_hand: "Eu como **atendente** quero anotar pedidos, saber o valor de cada produto e enviar o pedido para a cozinha para ser preparado".
 
-:writing_hand:**HU 03**
+-   **HU 03**
 
-"Eu como **chefe de cozinha** quero ver os pedidos dos clientes, marcar e notificar os atendentes que o pedido está pronto para ser entregue".
+    :writing_hand: "Eu como **chefe de cozinha** quero ver os pedidos dos clientes, marcar e notificar os atendentes que o pedido está pronto para ser entregue".
 
-:writing_hand: **HU 04**
+-   **HU 04**
 
-"Eu como **atendente** quero ver os pedidos que estão prontos para entregá-los rapidamente aos clientes".
+    :writing_hand: "Eu como **atendente** quero ver os pedidos que estão prontos para entregá-los rapidamente aos clientes".
 
-#### Funcionalidades
+#### :gear: Funcionalidades
 
 De acordo com as necessidades dos usuários, foram definidas quais funcionalidades deveriam ser implementadas:
 
@@ -109,19 +110,93 @@ De acordo com as necessidades dos usuários, foram definidas quais funcionalidad
 
     :white_check_mark: Marque os pedidos que foram entregues.
 
-❗ Ao encerrar o dia as comandas que foram sinalizadas como "entregue" não são exibidas na tela do atendente, porém os dados ficam armazenados para que o restaurante possa levantar estatísticas no futuro.
+:exclamation: Ao encerrar o dia as comandas que foram sinalizadas como "entregue" não são exibidas na tela do atendente, porém os dados ficam armazenados para que o restaurante possa levantar estatísticas no futuro.
 
 ## 5. Processo de criação
 
 #### :date: Organização
 
+<p align="justify">
+Ao receber o projeto toda a organização de tarefas e processos foram realizadas no <a href="https://trello.com/pt-BR">Trello </a>utilizando o sistema <b>kanban</b> e <b>metodologia ágil</b>. Depois de toda a organização feita, foram definidos os <b>critérios de aceitação e definição de pronto</b>, tempo de realização de cada tarefa e o que seria entregue em cada sprint. <b>Trabalhar integralmente uma história de usuário</b> antes de passar para a próxima, dessa forma ao final de cada sprint o cliente tem acesso ao que está sendo desenvolvido.
+</p>
+
+![print do trello](src/assets/assets-readme/trello.png)
+
+#### :bulb: Fluxograma
+
+<p align="justify">
+Ao entender bem a necessidade do cliente, desenvolvi também fluxogramas para entender qual seria o fluxo do usuário dentro da plataforma.
+</p>
+
+Abaixo o fluxograma da tela de cadastro e acesso:
+
+<div align="center">
+<img alt= "fluxograma cadastro e acesso" src="src/assets/assets-readme/fluxograma-login-signup.png" width=400>
+</div>
+
+#### :bulb: Wireframe de média fidelidade
+
+<p align="justify">
+Com base nesses dados levantados foi possível desenvolver wireframe de média fidelidade de todas as telas da aplicação tomando cuidado para que fosse uma plataforma tivesse uma experiência de usuário clara e objetiva.
+
+Para desenvolver o wireframe de média fidelidade foi utilizada a ferramenta
+<a href="https://mockflow.com/">mockflow</a>.
+
+</p>
+
+<img src="" width=170>
+<img src="" width=170>
+<img src="" width=170>
+<img src="" width=170>
+<img src="" width=170>
+<img src="" width=170>
+<img src="" width=170>
+
+#### :bulb: Wireframe de alta fidelidade
+
+<p align="justify">
+ Vários detalhes foram pensados para entregar uma aplicação que fosse intuitiva e para melhorar ainda mais a experiência na utilização, nas comandas estão etiquetas sinalizando o status dos pedidos e utilizando o farol como referência foram escolhidas as cores vermelha, laranja e verde.
+
+Para desenvolver o wireframe de alta fidelidade foi utilizada a ferramenta
+<a href="https://www.figma.com/">figma</a>.
+
+</p></br>
+
+![wireframe de alta fidelidade](src/assets/assets-readme/wireframe-alta-fidelidade.png)
+
 #### :art: Identidade visual
+
+<p align="justify">
+Depois de definir o nome do restaurante que seria o cliente no qual a aplicação seria desenvolvida e algumas pesquisas no google, encontrei um restaurante com o mesmo nome que está localizado na Europa. O perfil era parecido com o que tinha em mente, e o mesmo serviu de inspiração para a paleta de cores e fonte da logo. Se tiver interesse, você pode acessar o site deles <a href="http://urbanbistro.sk/">clicando aqui!</a>
+</p>
+
+<div align="center">
+<img alt='Fachada urban bistro'src="src/assets/assets-readme/real-urban-bistro.png" width=300>
+</div>
+
+#### :art: Paleta de cores
+
+<p align="justify">
+A paleta de cores foi desenvolvida utilizando o <a href="https://color.adobe.com/">Adobe Color</a>, pensando em tons mais quentes e sofisticados, que estivessem de acordo com o tema, proporcionasse harmonia visual e fosse confortável aos olhos dos usuários.
+</p>
+
+![paleta de cores](src/assets/assets-readme/paleta-de-cores.png)
 
 #### :art: Logo
 
-#### :art: Wireframe de média fidelidade
+<p align="justify">
+Para a logo foi pensada para que estivesse de acordo com o tema e que fosse capaz de representar a marca. As formas arredondadas acrescentam movimento ao design.
+</p>
 
-#### :art: Wireframe de alta fidelidade
+<div align="center">
+ <img  alt="Logo urban bistro" src="src/assets/logo.png" width=170 />
+ </div></br>
+
+<p align="justify">
+<i>
+"Não é o ângulo reto que me atrai, nem a linha reta, dura, inflexível criada pelo homem. O que me atrai é a curva livre e sensual, a curva que encontro no curso sinuoso dos nossos rios, nas nuvens do céu, no corpo da mulher preferida. De curvas é feito todo o universo, o universo curvo de Einstein".
+</i> Assim já dizia o renomado arquiteto Oscar Niemeyer.
+</p>
 
 #### :mag_right: Testes de usabilidade
 
