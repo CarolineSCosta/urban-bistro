@@ -8,7 +8,7 @@
 -   [2. Como utilizar](#2-como-utilizar)
 -   [3. Sobre a aplicação](#3-sobre-a-aplicação)
 -   [4. Histórias de usuários](#4-histórias-de-usuários)
-    -   [:gear: Funcionalidades](#:gear:-funcionalidades)
+    :gear: [Funcionalidades](#funcionalidades)
 -   [5. Processo de criação](#5-processo-de-criação)
     -   [Organização](#organização)
     -   [Identidade visual ](#identidade-visual)
