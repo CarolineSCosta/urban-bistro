@@ -202,7 +202,7 @@ Para a logo foi pensada para que estivesse de acordo com o tema e que fosse capa
   <i>
   "Não é o ângulo reto que me atrai, nem a linha reta, dura, inflexível   criada pelo homem. O que me atrai é a curva livre e sensual, a curva que  encontro no curso sinuoso dos nossos rios, nas nuvens do céu, no corpo da  mulher preferida. De curvas é feito todo o universo, o universo curvo de   Einstein".
   </i> Assim já dizia o renomado arquiteto Oscar Niemeyer.
-</p>git st
+</p>
 
 #### :mag_right: Testes de usabilidade
 
