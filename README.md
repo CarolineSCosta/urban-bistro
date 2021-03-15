@@ -14,7 +14,7 @@
     -   [Identidade visual ](#identidade-visual)
     -   [Paleta de cores](#paleta-de-cores)
     -   [Logo](#logo)
-    -   [Wireframe de média fidelidade](#wireframe-de-média-fidelidade)
+    -   [Wireframe de média fidelidade](#bulb-wireframe-de-média-fidelidade)
     -   [Wireframe de alta fidelidade](#wireframe-de-alta-fidelidade)
     -   [Testes de usabilidade](#testes-de-usabilidade)
 -   [6. Desenvolvimento](#6-desenvolvimento)
