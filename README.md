@@ -142,7 +142,7 @@ Abaixo o fluxograma da tela de cadastro e acesso:
 #### :bulb: Wireframe de média fidelidade
 
 <p align="justify">
-Com base nesses dados levantados foi possível desenvolver wireframe de média fidelidade de todas as telas da aplicação tomando cuidado para que fosse uma plataforma tivesse uma experiência de usuário clara e objetiva.
+Com base nesses dados levantados foi possível desenvolver wireframe de média fidelidade de todas as telas da aplicação tomando cuidado para que o usuário tivesse uma experiência clara e objetiva.
 
 Para desenvolver o wireframe de média fidelidade foi utilizada a ferramenta
 <a href="https://mockflow.com/" target="_blank">Mockflow</a>.
@@ -162,7 +162,7 @@ Para desenvolver o wireframe de média fidelidade foi utilizada a ferramenta
 #### :bulb: Wireframe de alta fidelidade
 
 <p align="justify">
- Vários detalhes foram pensados para entregar uma aplicação que fosse intuitiva e para melhorar ainda mais a experiência na utilização, nas comandas estão etiquetas sinalizando o status dos pedidos e utilizando o farol como referência foram escolhidas as cores vermelha, laranja e verde.
+Vários detalhes foram pensados para entregar uma aplicação que fosse intuitiva e para melhorar ainda mais a experiência na utilização, nas comandas estão etiquetas sinalizando o status dos pedidos e utilizando o farol como referência foram escolhidas as cores vermelha, laranja e verde.
 
 Para desenvolver o wireframe de alta fidelidade foi utilizada a ferramenta
 <a href="https://www.figma.com/" target="_blank">Figma</a>.
