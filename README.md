@@ -245,3 +245,4 @@ Foram realizados testes com algumas das pessoas que se dispuseram testar a usabi
 <p align="center">
 Esse projeto foi desenvolvido no <a href="https://www.laboratoria.la/br" target="_blank">Bootcamp da Laboratória Brasil</a>
 </p>
+<h4 align="center"> © 2021 - <a href= "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt_BR" target="_blank">Alguns direitos reservados</a></h4>
